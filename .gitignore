@@ -1,26 +1,17 @@
-# Virtual Environment
+# virtual environment
 .venv/
-venv/
-env/
 
-# Python cache
+# python cache
 __pycache__/
 *.pyc
-*.pyo
 
-# Jupyter
-.ipynb_checkpoints/
+# artifacts
+artifacts/
+*.joblib
+*.pkl
 
-# VS Code settings
-.vscode/
+# datasets
+*.csv
 
 # OS files
 .DS_Store
-Thumbs.db
-
-# Model outputs (optional)
-models/
-reports/
-
-# Data (optional)
-data/

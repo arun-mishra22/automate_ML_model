@@ -23,7 +23,7 @@ def load_dataset(file_path: str) -> pd.DataFrame:
 def basic_cleaning(df: pd.DataFrame) -> pd.DataFrame:
     df = df.copy()
     df = df.drop_duplicates()
-    df.columns = df.columns.str.strip()
+    df.columns = df.columns.str.strip().str.lower()
     return df
 
 
